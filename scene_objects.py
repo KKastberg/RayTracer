@@ -2,11 +2,15 @@ import numpy as np
 from object_classes import *
 
 objects = [
-    Sphere(x=0, y=1, z=0, r=2)
+    Sphere(x=0, y=-1, z=8, r=3)
 ]
 
-camera = Camera(x=0, y=0, z=-1)
-screen = Screen(x=20, y=40, z=0, width=300, height=200)
+lights = [
+    Light(x=0, y=100, z=0)
+]
+
+camera = Camera(x=0, y=0, z=0)
+screen = Screen(x=0, y=0, z=4, width=1, height=1)
 
 
 
